@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56CF644325E861A7003804FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF644225E861A7003804FE /* AppDelegate.swift */; };
+		56CF644525E861A7003804FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF644425E861A7003804FE /* SceneDelegate.swift */; };
+		56CF644725E861A7003804FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF644625E861A7003804FE /* ViewController.swift */; };
+		56CF644A25E861A7003804FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CF644825E861A7003804FE /* Main.storyboard */; };
+		56CF644C25E861A8003804FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56CF644B25E861A8003804FE /* Assets.xcassets */; };
+		56CF644F25E861A8003804FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CF644D25E861A8003804FE /* LaunchScreen.storyboard */; };
+		56CF645425E861A8003804FE /* CoinFlip WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 56CF645325E861A8003804FE /* CoinFlip WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		56CF645A25E861A8003804FE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CF645825E861A8003804FE /* Interface.storyboard */; };
+		56CF645C25E861A8003804FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56CF645B25E861A8003804FE /* Assets.xcassets */; };
+		56CF646325E861A8003804FE /* CoinFlip WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 56CF646225E861A8003804FE /* CoinFlip WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		56CF646825E861A8003804FE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF646725E861A8003804FE /* InterfaceController.swift */; };
+		56CF646A25E861A8003804FE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF646925E861A8003804FE /* ExtensionDelegate.swift */; };
+		56CF646C25E861A8003804FE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF646B25E861A8003804FE /* NotificationController.swift */; };
+		56CF646E25E861A8003804FE /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF646D25E861A8003804FE /* ComplicationController.swift */; };
+		56CF647025E861A9003804FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56CF646F25E861A9003804FE /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56CF645525E861A8003804FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56CF643725E861A7003804FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56CF645225E861A8003804FE;
+			remoteInfo = "CoinFlip WatchKit App";
+		};
+		56CF646425E861A8003804FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56CF643725E861A7003804FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56CF646125E861A8003804FE;
+			remoteInfo = "CoinFlip WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		56CF647825E861A9003804FE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				56CF646325E861A8003804FE /* CoinFlip WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CF647C25E861A9003804FE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				56CF645425E861A8003804FE /* CoinFlip WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		56CF643F25E861A7003804FE /* CoinFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56CF644225E861A7003804FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56CF644425E861A7003804FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		56CF644625E861A7003804FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56CF644925E861A7003804FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56CF644B25E861A8003804FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56CF644E25E861A8003804FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56CF645025E861A8003804FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56CF645325E861A8003804FE /* CoinFlip WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoinFlip WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56CF645925E861A8003804FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		56CF645B25E861A8003804FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56CF645D25E861A8003804FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56CF646225E861A8003804FE /* CoinFlip WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CoinFlip WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56CF646725E861A8003804FE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		56CF646925E861A8003804FE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		56CF646B25E861A8003804FE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		56CF646D25E861A8003804FE /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		56CF646F25E861A9003804FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56CF647125E861A9003804FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56CF647225E861A9003804FE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56CF643C25E861A7003804FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CF645F25E861A8003804FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56CF643625E861A7003804FE = {
+			isa = PBXGroup;
+			children = (
+				56CF644125E861A7003804FE /* CoinFlip */,
+				56CF645725E861A8003804FE /* CoinFlip WatchKit App */,
+				56CF646625E861A8003804FE /* CoinFlip WatchKit Extension */,
+				56CF644025E861A7003804FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56CF644025E861A7003804FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56CF643F25E861A7003804FE /* CoinFlip.app */,
+				56CF645325E861A8003804FE /* CoinFlip WatchKit App.app */,
+				56CF646225E861A8003804FE /* CoinFlip WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56CF644125E861A7003804FE /* CoinFlip */ = {
+			isa = PBXGroup;
+			children = (
+				56CF644225E861A7003804FE /* AppDelegate.swift */,
+				56CF644425E861A7003804FE /* SceneDelegate.swift */,
+				56CF644625E861A7003804FE /* ViewController.swift */,
+				56CF644825E861A7003804FE /* Main.storyboard */,
+				56CF644B25E861A8003804FE /* Assets.xcassets */,
+				56CF644D25E861A8003804FE /* LaunchScreen.storyboard */,
+				56CF645025E861A8003804FE /* Info.plist */,
+			);
+			path = CoinFlip;
+			sourceTree = "<group>";
+		};
+		56CF645725E861A8003804FE /* CoinFlip WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				56CF645825E861A8003804FE /* Interface.storyboard */,
+				56CF645B25E861A8003804FE /* Assets.xcassets */,
+				56CF645D25E861A8003804FE /* Info.plist */,
+			);
+			path = "CoinFlip WatchKit App";
+			sourceTree = "<group>";
+		};
+		56CF646625E861A8003804FE /* CoinFlip WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				56CF646725E861A8003804FE /* InterfaceController.swift */,
+				56CF646925E861A8003804FE /* ExtensionDelegate.swift */,
+				56CF646B25E861A8003804FE /* NotificationController.swift */,
+				56CF646D25E861A8003804FE /* ComplicationController.swift */,
+				56CF646F25E861A9003804FE /* Assets.xcassets */,
+				56CF647125E861A9003804FE /* Info.plist */,
+				56CF647225E861A9003804FE /* PushNotificationPayload.apns */,
+			);
+			path = "CoinFlip WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56CF643E25E861A7003804FE /* CoinFlip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56CF647D25E861A9003804FE /* Build configuration list for PBXNativeTarget "CoinFlip" */;
+			buildPhases = (
+				56CF643B25E861A7003804FE /* Sources */,
+				56CF643C25E861A7003804FE /* Frameworks */,
+				56CF643D25E861A7003804FE /* Resources */,
+				56CF647C25E861A9003804FE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56CF645625E861A8003804FE /* PBXTargetDependency */,
+			);
+			name = CoinFlip;
+			productName = CoinFlip;
+			productReference = 56CF643F25E861A7003804FE /* CoinFlip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56CF645225E861A8003804FE /* CoinFlip WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56CF647925E861A9003804FE /* Build configuration list for PBXNativeTarget "CoinFlip WatchKit App" */;
+			buildPhases = (
+				56CF645125E861A8003804FE /* Resources */,
+				56CF647825E861A9003804FE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56CF646525E861A8003804FE /* PBXTargetDependency */,
+			);
+			name = "CoinFlip WatchKit App";
+			productName = "CoinFlip WatchKit App";
+			productReference = 56CF645325E861A8003804FE /* CoinFlip WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		56CF646125E861A8003804FE /* CoinFlip WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56CF647525E861A9003804FE /* Build configuration list for PBXNativeTarget "CoinFlip WatchKit Extension" */;
+			buildPhases = (
+				56CF645E25E861A8003804FE /* Sources */,
+				56CF645F25E861A8003804FE /* Frameworks */,
+				56CF646025E861A8003804FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoinFlip WatchKit Extension";
+			productName = "CoinFlip WatchKit Extension";
+			productReference = 56CF646225E861A8003804FE /* CoinFlip WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56CF643725E861A7003804FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					56CF643E25E861A7003804FE = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					56CF645225E861A8003804FE = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					56CF646125E861A8003804FE = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 56CF643A25E861A7003804FE /* Build configuration list for PBXProject "CoinFlip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56CF643625E861A7003804FE;
+			productRefGroup = 56CF644025E861A7003804FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56CF643E25E861A7003804FE /* CoinFlip */,
+				56CF645225E861A8003804FE /* CoinFlip WatchKit App */,
+				56CF646125E861A8003804FE /* CoinFlip WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56CF643D25E861A7003804FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CF644F25E861A8003804FE /* LaunchScreen.storyboard in Resources */,
+				56CF644C25E861A8003804FE /* Assets.xcassets in Resources */,
+				56CF644A25E861A7003804FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CF645125E861A8003804FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CF645C25E861A8003804FE /* Assets.xcassets in Resources */,
+				56CF645A25E861A8003804FE /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CF646025E861A8003804FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CF647025E861A9003804FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56CF643B25E861A7003804FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CF644725E861A7003804FE /* ViewController.swift in Sources */,
+				56CF644325E861A7003804FE /* AppDelegate.swift in Sources */,
+				56CF644525E861A7003804FE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CF645E25E861A8003804FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CF646C25E861A8003804FE /* NotificationController.swift in Sources */,
+				56CF646E25E861A8003804FE /* ComplicationController.swift in Sources */,
+				56CF646A25E861A8003804FE /* ExtensionDelegate.swift in Sources */,
+				56CF646825E861A8003804FE /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56CF645625E861A8003804FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56CF645225E861A8003804FE /* CoinFlip WatchKit App */;
+			targetProxy = 56CF645525E861A8003804FE /* PBXContainerItemProxy */;
+		};
+		56CF646525E861A8003804FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56CF646125E861A8003804FE /* CoinFlip WatchKit Extension */;
+			targetProxy = 56CF646425E861A8003804FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56CF644825E861A7003804FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56CF644925E861A7003804FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56CF644D25E861A8003804FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56CF644E25E861A8003804FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		56CF645825E861A8003804FE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56CF645925E861A8003804FE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56CF647325E861A9003804FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56CF647425E861A9003804FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		56CF647625E861A9003804FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CoinFlip WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HelloWorld.CoinFlip.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		56CF647725E861A9003804FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CoinFlip WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HelloWorld.CoinFlip.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		56CF647A25E861A9003804FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = CoinFlip_WatchKit_Extension;
+				INFOPLIST_FILE = "CoinFlip WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HelloWorld.CoinFlip.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		56CF647B25E861A9003804FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = CoinFlip_WatchKit_Extension;
+				INFOPLIST_FILE = "CoinFlip WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HelloWorld.CoinFlip.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		56CF647E25E861A9003804FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoinFlip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HelloWorld.CoinFlip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56CF647F25E861A9003804FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoinFlip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HelloWorld.CoinFlip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56CF643A25E861A7003804FE /* Build configuration list for PBXProject "CoinFlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CF647325E861A9003804FE /* Debug */,
+				56CF647425E861A9003804FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56CF647525E861A9003804FE /* Build configuration list for PBXNativeTarget "CoinFlip WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CF647625E861A9003804FE /* Debug */,
+				56CF647725E861A9003804FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56CF647925E861A9003804FE /* Build configuration list for PBXNativeTarget "CoinFlip WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CF647A25E861A9003804FE /* Debug */,
+				56CF647B25E861A9003804FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56CF647D25E861A9003804FE /* Build configuration list for PBXNativeTarget "CoinFlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CF647E25E861A9003804FE /* Debug */,
+				56CF647F25E861A9003804FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56CF643725E861A7003804FE /* Project object */;
+}
